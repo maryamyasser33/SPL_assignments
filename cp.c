@@ -2,7 +2,7 @@
 #include <stdlib.h>
 #include <unistd.h>
 
-int cp_main(int argc, char *argv[]) {
+int main(int argc, char *argv[]) {
     FILE  *fptr1,*fptr2;
     fptr1 = fopen(argv[1], "r");
 
