@@ -1,4 +1,8 @@
-int femtoshell_main(int argc, char *argv[]) {
+#include <stdio.h>
+#include <stdlib.h>
+#include <unistd.h>
+
+int main(int argc, char *argv[]) {
    while(true){
        printf("FemtoShell >");
        char input[100000];
